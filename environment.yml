@@ -7,6 +7,7 @@ dependencies:
     - bottleneck    # C-optimized array functions for NumPy
     - cartopy       # Geographic plotting toolkit
     - cftime
+    - cf_units
     - dask          # Parallel processing library
     - future        # Python 2/3 compatibility
     - h5py          # Wrapper for HDF5
