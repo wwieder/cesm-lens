@@ -1,7 +1,6 @@
 name: lens-py
 channels:
     - conda-forge
-    - defaults
 dependencies:
     - python=3.7    # Python version 3.7
     - bottleneck    # C-optimized array functions for NumPy
@@ -12,9 +11,9 @@ dependencies:
     - future        # Python 2/3 compatibility
     - h5py          # Wrapper for HDF5
     - ipython       # IPython interpreter and tools
-    - jupyter       # Jupyter federation architecture
+    - jupyterlab>=3       # Jupyter federation architecture
     - matplotlib    # 2D plotting library
-    - ncar-jobqueue
+    - ncar-jobqueue>=2021.2
     - nc-time-axis
     - netcdf4       # Wrapper for netcdf4
     - notebook      # Notebook interface
@@ -26,3 +25,6 @@ dependencies:
     - six           # Python 2/3 compatibility
     - tqdm          # Nice progressbar for longer computations
     - xarray=0.16.2 # N-d labeled array library
+    - numba>=0.52 
+    - ipywidgets
+    - dask-labextension
