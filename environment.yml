@@ -1,30 +1,31 @@
 name: lens-py
 channels:
-    - conda-forge
+  - conda-forge
 dependencies:
-    - python=3.7    # Python version 3.7
-    - bottleneck    # C-optimized array functions for NumPy
-    - cartopy       # Geographic plotting toolkit
-    - cftime
-    - cf_units
-    - dask          # Parallel processing library
-    - future        # Python 2/3 compatibility
-    - h5py          # Wrapper for HDF5
-    - ipython       # IPython interpreter and tools
-    - jupyterlab>=3       # Jupyter federation architecture
-    - matplotlib    # 2D plotting library
-    - ncar-jobqueue>=2021.2
-    - nc-time-axis
-    - netcdf4       # Wrapper for netcdf4
-    - notebook      # Notebook interface
-    - numpy         # N-d array and numerics
-    - pandas        # Labeled array library
-    - scipy         # Common math/stats/science functions
-    - scikit-learn  # Macine learning library
-    - seaborn       # Statistical visualizations
-    - six           # Python 2/3 compatibility
-    - tqdm          # Nice progressbar for longer computations
-    - xarray=0.16.2 # N-d labeled array library
-    - numba>=0.52 
-    - ipywidgets
-    - dask-labextension
+  - python=3.7 # Python version 3.7
+  - bottleneck # C-optimized array functions for NumPy
+  - cartopy # Geographic plotting toolkit
+  - cftime
+  - cf_units
+  - dask # Parallel processing library
+  - future # Python 2/3 compatibility
+  - h5py # Wrapper for HDF5
+  - ipython # IPython interpreter and tools
+  - jupyterlab>=3 # Jupyter federation architecture
+  - matplotlib # 2D plotting library
+  - ncar-jobqueue>=2021.2
+  - nc-time-axis
+  - netcdf4 # Wrapper for netcdf4
+  - notebook # Notebook interface
+  - numpy # N-d array and numerics
+  - pandas # Labeled array library
+  - scipy # Common math/stats/science functions
+  - scikit-learn # Macine learning library
+  - seaborn # Statistical visualizations
+  - six # Python 2/3 compatibility
+  - tqdm # Nice progressbar for longer computations
+  - xarray=0.16.2 # N-d labeled array library
+  - numba>=0.52
+  - ipywidgets
+  - dask-labextension
+  - watermark
